@@ -1,10 +1,10 @@
 import {Component} from "react";
 
-export class Loading extends Component {
+export class ContactUs extends Component {
     render() {
         return (
             <>
-                <strong>Loading...</strong>
+                <h2>Contact US</h2>
             </>
         )
     }
