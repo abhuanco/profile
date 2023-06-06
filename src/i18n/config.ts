@@ -5,7 +5,7 @@ import locale_en from './locales/en/global.json';
 
 i18n.use(initReactI18next).init({
     fallbackLng: 'en',
-    lng: 'en',
+    lng: 'es',
     resources: {
         en: {
             translations: locale_en

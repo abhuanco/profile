@@ -2,20 +2,13 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import "./MainMenu.scss"
 import {useTranslation} from "react-i18next";
-import {Button} from "@mui/material";
 
 const MainMenu = () => {
-    const [t, i18n] = useTranslation("translations");
-
+    const [t,] = useTranslation("translations");
     return (
         <>
             <nav>
-
                 <ul>
-                    <li>
-                        <Button onClick={() => i18n.changeLanguage("en")}>EN</Button>
-                        <Button onClick={() => i18n.changeLanguage("es")}>ES</Button>
-                    </li>
                     <li>
                         <NavLink className="nav-link" to="/">{t("menu.home")}</NavLink>
                     </li>

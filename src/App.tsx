@@ -3,6 +3,7 @@ import {Route, Routes} from 'react-router-dom'
 import './styles/App.scss'
 import {Home, Portfolio, AboutMe, ContactUs} from "./pages";
 import MainMenu from './components/MainMenu/MainMenu';
+import {Header} from "./components/Header/Header";
 
 function App() {
     return <>
@@ -12,6 +13,7 @@ function App() {
             </div>
         </section>
         <div id="wrapper">
+            <Header/>
             <section id="intro" className="wrapper style1 fullscreen fade-up">
                 <div className="inner">
                     <Routes>
