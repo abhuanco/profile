@@ -1,0 +1,15 @@
+.mss-header {
+  .mss-header-toolbar {
+    flex-direction: row-reverse;
+  }
+
+  .mss-button-lang {
+    height: 24px !important;
+    background-color: transparent;
+    &.mss-active {
+      border: 1px solid #1976d2 !important;
+      background-color: #1976d2;
+    }
+  }
+
+}

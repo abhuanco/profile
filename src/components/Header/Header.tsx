@@ -4,25 +4,42 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import {useTranslation} from "react-i18next";
+import {ButtonGroup} from "@mui/material";
+import "./Header.scss"
+import {useState} from "react";
 
-export function Header() {
+const Header = (props: any) => {
     const [, i18n] = useTranslation("translations");
+    const [active, setActive] = useState(String);
+    const onClickLanguage = async (lang: string) => {
+        await i18n.changeLanguage(lang);
+        setActive(lang)
+    }
+
     return (
         <>
-            <Box sx={{flexGrow: 1}}>
-                <AppBar position="static">
-                    <Toolbar>
-                        <Box sx={{'& button': {m: 1}}}>
-                            <Button variant="contained" size="small" onClick={() => i18n.changeLanguage("en")}>
-                                EN
-                            </Button>
-                            <Button variant="contained" size="small" onClick={() => i18n.changeLanguage("es")}>
-                                ES
-                            </Button>
+            <Box>
+                <AppBar position="static" color="transparent" className="mss-header">
+                    <Toolbar className="mss-header-toolbar">
+                        <Box>
+                            <ButtonGroup size="small">
+                                <Button variant="contained"
+                                    className={active === 'en' ? 'mss-button-lang mss-active' : 'mss-button-lang'}
+                                    size="small" onClick={() => onClickLanguage("en")}>
+                                    EN
+                                </Button>
+                                <Button variant="contained"
+                                    className={active === 'es' ? 'mss-button-lang mss-active' : 'mss-button-lang'}
+                                    size="small" onClick={() => onClickLanguage("es")}>
+                                    ES
+                                </Button>
+                            </ButtonGroup>
                         </Box>
                     </Toolbar>
                 </AppBar>
             </Box>
         </>
     )
-}
+};
+
+export default Header;

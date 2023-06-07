@@ -1,4 +1,4 @@
-export * from "./Home/Home";
+export * from "./Presentation/Presentation";
 export * from "./AboutMe/AboutMe"
 export * from "./Portfolio/Portfolio"
-export * from "./ContactUs/ContactUs"
+export * from "./ContactMe/ContactMe"

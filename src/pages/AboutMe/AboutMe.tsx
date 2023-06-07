@@ -1,4 +1,5 @@
 import {Component} from "react";
+import './AboutMe.scss'
 
 export class AboutMe extends Component {
     render = () => (

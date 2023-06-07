@@ -1,9 +1,9 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom'
-import './styles/App.scss'
-import {Home, Portfolio, AboutMe, ContactUs} from "./pages";
+import './App.scss'
+import {Presentation, Portfolio, AboutMe, ContactMe} from "./pages";
 import MainMenu from './components/MainMenu/MainMenu';
-import {Header} from "./components/Header/Header";
+import Header from "./components/Header/Header";
 
 function App() {
     return <>
@@ -17,11 +17,11 @@ function App() {
             <section id="intro" className="wrapper style1 fullscreen fade-up">
                 <div className="inner">
                     <Routes>
-                        <Route index element={<Home/>}></Route>
-                        <Route path="/" element={<Home/>}></Route>
+                        <Route index element={<Presentation/>}></Route>
+                        <Route path="/" element={<Presentation/>}></Route>
                         <Route path="/portfolio" element={<Portfolio/>}></Route>
                         <Route path="/about-me" element={<AboutMe/>}></Route>
-                        <Route path="/contact-me" element={<ContactUs/>}></Route>
+                        <Route path="/contact-me" element={<ContactMe/>}></Route>
                     </Routes>
                 </div>
             </section>

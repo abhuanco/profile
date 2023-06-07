@@ -1,6 +1,7 @@
 import {Component} from "react";
+import './ContactMe.scss'
 
-export class ContactUs extends Component {
+export class ContactMe extends Component {
     render() {
         return (
             <>

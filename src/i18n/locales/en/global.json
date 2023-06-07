@@ -1,8 +1,16 @@
 {
   "menu": {
-    "home": "Home",
+    "home": "Presentation",
     "about-me": "About Me",
     "contact-me": "Contact Me",
     "portfolio": "Portfolio"
+  },
+  "pages": {
+    "presentation": {
+      "title": "Presentation",
+      "subtitle": "",
+      "sections": {
+      }
+    }
   }
 }

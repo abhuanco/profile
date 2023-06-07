@@ -1,8 +1,20 @@
 {
   "menu": {
-    "home": "Inicio",
+    "home": "Presentación",
     "about-me": "Sobre Mi",
     "contact-me": "Contactame",
     "portfolio": "Portafolio"
+  },
+  "pages": {
+    "presentation": {
+      "title": "Presentación",
+      "subtitle": "Un poco sobre mi",
+      "sections": {
+        "1": "Son un desarrollador de aplicaciones web con mas de 10 años de experiencia en el mundo de la programacion, con solidos conocimientos en las siguientes tecnlogias",
+        "2": "PHP, C#, Javascript, NodeJS, HTML, CSS, Docker, Python",
+        "3": "Tambien tengo dominio de arquitectura hexagonal DDD para desarrollo de aplicaciones web",
+        "4": "Asi como el manejo de multiples frameworks, como Laravel, Symfony, VueJS, Angular, React, jQuery"
+      }
+    }
   }
 }
