@@ -1,10 +1,12 @@
-import {Component} from "react";
+import React, {Component} from "react";
+import Typed from 'react-typed';
 import './Presentation.scss'
 
 export class Presentation extends Component {
     render() {
         return (
             <>
+                <Typed strings={["Hello world!", "My name is rene whats your name?"]} typeSpeed={40} />
                 <h2>Home page</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta, distinctio eos ex fugiat hic
                     incidunt inventore itaque minima molestiae nam natus, nesciunt non placeat, provident quae
