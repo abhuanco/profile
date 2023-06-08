@@ -14,7 +14,7 @@ function App() {
         </section>
         <div id="wrapper">
             <Header/>
-            <section id="intro" className="wrapper style1 fullscreen fade-up">
+            <section id="intro" className="wrapper mss-primary fullscreen fade-up">
                 <div className="inner">
                     <Routes>
                         <Route index element={<Presentation/>}></Route>
@@ -26,7 +26,7 @@ function App() {
                 </div>
             </section>
         </div>
-        <footer id="footer" className="wrapper style1-alt">
+        <footer id="footer" className="wrapper mss-primary-footer">
             <div className="inner">
                 <ul className="menu">
                     <li>© Untitled. All rights reserved.</li>
