@@ -1,9 +1,10 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom'
 import './App.scss'
-import {Presentation, Portfolio, AboutMe, ContactMe} from "./pages";
+import {Portfolio, AboutMe, ContactMe} from "./pages";
 import MainMenu from './components/MainMenu/MainMenu';
 import Header from "./components/Header/Header";
+import Presentation from "./pages/Presentation/Presentation";
 
 function App() {
     return <>

@@ -2,11 +2,16 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import "./MainMenu.scss"
 import {useTranslation} from "react-i18next";
+import logo from '../../img/logo-oficial.png';
 
 const MainMenu = () => {
     const [t,] = useTranslation("translations");
     return (
         <>
+            <div className="mss-logo-header">
+                <img src={logo} className="mss-logo" title="Buildsoft"/>
+            </div>
+            <hr className="mss-separator"/>
             <nav>
                 <ul>
                     <li>

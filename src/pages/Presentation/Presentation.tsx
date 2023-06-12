@@ -1,49 +1,23 @@
 import React, {Component} from "react";
 import Typed from 'react-typed';
 import './Presentation.scss'
+import {useTranslation} from "react-i18next";
 
-export class Presentation extends Component {
-    render() {
-        return (
-            <>
-                <Typed strings={["Hello world!", "My name is rene whats your name?"]} typeSpeed={40} />
-                <h2>Home page</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta, distinctio eos ex fugiat hic
-                    incidunt inventore itaque minima molestiae nam natus, nesciunt non placeat, provident quae
-                    reiciendis sapiente similique.</p>
-                <p className="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aliquid
-                    amet eligendi impedit incidunt iusto maiores minus, nihil nisi, nobis obcaecati quaerat quibusdam
-                    repellat sunt totam, vel vero voluptas.</p>
-                <hr/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consectetur exercitationem fuga hic
-                    ipsam nostrum, obcaecati optio quasi quo quod repellat, repellendus tempora velit veniam voluptatem.
-                    Explicabo maiores nulla tempore!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid amet at atque consectetur
-                    debitis deserunt, dicta doloremque dolorum, fugiat fugit harum, id itaque neque perspiciatis
-                    reiciendis sapiente sit velit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at incidunt modi sunt voluptate!
-                    Cupiditate deserunt dolor facilis itaque neque nesciunt quo sed sunt voluptate voluptatum? Alias
-                    excepturi ipsam nobis.</p>
-                <hr/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at incidunt modi sunt voluptate!
-                    Cupiditate deserunt dolor facilis itaque neque nesciunt quo sed sunt voluptate voluptatum? Alias
-                    excepturi ipsam nobis.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at incidunt modi sunt voluptate!
-                    Cupiditate deserunt dolor facilis itaque neque nesciunt quo sed sunt voluptate voluptatum? Alias
-                    excepturi ipsam nobis.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at incidunt modi sunt voluptate!
-                    Cupiditate deserunt dolor facilis itaque neque nesciunt quo sed sunt voluptate voluptatum? Alias
-                    excepturi ipsam nobis.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at incidunt modi sunt voluptate!
-                    Cupiditate deserunt dolor facilis itaque neque nesciunt quo sed sunt voluptate voluptatum? Alias
-                    excepturi ipsam nobis.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at incidunt modi sunt voluptate!
-                    Cupiditate deserunt dolor facilis itaque neque nesciunt quo sed sunt voluptate voluptatum? Alias
-                    excepturi ipsam nobis.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at incidunt modi sunt voluptate!
-                    Cupiditate deserunt dolor facilis itaque neque nesciunt quo sed sunt voluptate voluptatum? Alias
-                    excepturi ipsam nobis.</p>
-            </>
-        )
-    }
+
+const Presentation = () => {
+    const [t,] = useTranslation("translations");
+
+    return (
+        <>
+            <div className="mss-presentation">
+                <h1>{t('welcome.first')}</h1>
+                <h2>{t('welcome.second')}</h2>
+                <p>{t('welcome.three')}</p>
+                {/*<Typed className="mss-typed-presentation"
+                       strings={[t('welcome.first'), t('welcome.second'), t('welcome.three')]} typeSpeed={40}/>*/}
+            </div>
+        </>
+    )
 }
+
+export default Presentation;
