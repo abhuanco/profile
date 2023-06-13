@@ -1,4 +1,12 @@
 .mss-presentation {
+  text-align: center;
+
+  .mss-image-profile {
+    max-width: 400px;
+    border: 19px solid #312574;
+    border-radius: 50%;
+  }
+
   .mss-typed-presentation {
     color: #eeeeee;
     font-size: 3em;

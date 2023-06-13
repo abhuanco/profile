@@ -1,8 +1,7 @@
-import React, {Component} from "react";
-import Typed from 'react-typed';
+import React from "react";
 import './Presentation.scss'
 import {useTranslation} from "react-i18next";
-
+import profileImage from './../../img/image-profile.png'
 
 const Presentation = () => {
     const [t,] = useTranslation("translations");
@@ -10,6 +9,7 @@ const Presentation = () => {
     return (
         <>
             <div className="mss-presentation">
+                <img className="mss-image-profile" src={profileImage} alt="René Huanco Choque"/>
                 <h1>{t('welcome.first')}</h1>
                 <h2>{t('welcome.second')}</h2>
                 <p>{t('welcome.three')}</p>

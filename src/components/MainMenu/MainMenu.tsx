@@ -9,7 +9,7 @@ const MainMenu = () => {
     return (
         <>
             <div className="mss-logo-header">
-                <img src={logo} className="mss-logo" title="Buildsoft"/>
+                <img src={logo} className="mss-logo" alt="Buildsoft" title="Buildsoft"/>
             </div>
             <hr className="mss-separator"/>
             <nav>
