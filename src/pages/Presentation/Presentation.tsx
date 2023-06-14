@@ -10,9 +10,9 @@ const Presentation = () => {
         <>
             <div className="mss-presentation">
                 <img className="mss-image-profile" src={profileImage} alt="René Huanco Choque"/>
-                <h1>{t('welcome.first')}</h1>
-                <h2>{t('welcome.second')}</h2>
-                <p>{t('welcome.three')}</p>
+                <h1 className="mss-first">{t('welcome.first')}</h1>
+                <h2 className="mss-second">{t('welcome.second')}</h2>
+                <strong>{t('welcome.three')}</strong>
                 {/*<Typed className="mss-typed-presentation"
                        strings={[t('welcome.first'), t('welcome.second'), t('welcome.three')]} typeSpeed={40}/>*/}
             </div>
