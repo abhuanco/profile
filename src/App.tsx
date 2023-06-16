@@ -5,6 +5,7 @@ import {Portfolio, AboutMe, ContactMe} from "./pages";
 import MainMenu from './components/MainMenu/MainMenu';
 import Header from "./components/Header/Header";
 import Presentation from "./pages/Presentation/Presentation";
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
     return <>
@@ -27,15 +28,7 @@ function App() {
                 </div>
             </section>
         </div>
-        <footer id="footer" className="wrapper mss-primary-footer">
-            <div className="inner">
-                <ul className="menu">
-                    <li>© Untitled. All rights reserved.</li>
-                    <li>Images: <a href="http://unsplash.com">Unsplash</a></li>
-                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                </ul>
-            </div>
-        </footer>
+        <Footer/>
     </>;
 }
 
