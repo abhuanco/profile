@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom'
 import './App.scss'
-import {Portfolio, AboutMe, ContactMe} from "./pages";
+import {AboutMe, ContactMe, Portfolio} from "./pages";
 import MainMenu from './components/MainMenu/MainMenu';
 import Header from "./components/Header/Header";
 import Presentation from "./pages/Presentation/Presentation";
