@@ -6,6 +6,7 @@ import MainMenu from './components/MainMenu/MainMenu';
 import Header from "./components/Header/Header";
 import Presentation from "./pages/Presentation/Presentation";
 import {Footer} from "./components/Footer/Footer";
+import {Skills} from "./pages/Skills/Skills";
 
 function App() {
     return <>
@@ -24,6 +25,7 @@ function App() {
                         <Route path="/portfolio" element={<Portfolio/>}></Route>
                         <Route path="/about-me" element={<AboutMe/>}></Route>
                         <Route path="/contact-me" element={<ContactMe/>}></Route>
+                        <Route path="/skills" element={<Skills/>}></Route>
                     </Routes>
                 </div>
             </section>

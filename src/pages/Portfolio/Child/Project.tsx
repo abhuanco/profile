@@ -6,20 +6,20 @@ class Project extends Component<{ portfolio: Portfolio }> {
         let {portfolio} = this.props;
         return (
             <>
-                <div className=" col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                    <div className="card">
-                        <img src={portfolio.icon} className="card-img-top" alt={portfolio.title}/>
+                <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div className="card bss-card-project">
                         <div className="card-body">
+                            <img src={portfolio.icon} className="card-img-top" alt={portfolio.title}/>
                             <h5 className="card-title">{portfolio.title}</h5>
-                            <p className="card-text">
-                                {portfolio.description}
-                            </p>
                             <div className="bss-technologies">
                                 {portfolio.technologies.map((v, k) =>
                                     <a href={v.url} className="bss-tech-icon">{v.title}</a>)
                                 }
                             </div>
-                            <a href={portfolio.url} className="btn btn-primary">Go porject</a>
+                            <p className="card-text">
+                                {portfolio.description}
+                            </p>
+                            <a href={portfolio.url} className="btn btn-primary">Go project</a>
                         </div>
                     </div>
                 </div>

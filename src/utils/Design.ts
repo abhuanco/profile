@@ -1,7 +1,3 @@
-export const design = () => {
-    return {
-        grids: {
-            row: 'row'
-        }
-    }
-};
+export default interface Design {
+
+}

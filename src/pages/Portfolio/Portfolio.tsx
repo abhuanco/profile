@@ -10,7 +10,41 @@ export class Portfolio extends Component {
         this.portfolios = [
             new ModelPortfolio(
                 'https://picsum.photos/id/1/500/300',
-                'Project One', 'https://www.project.one.com',
+                'Recupalet',
+                'https://www.project.one.com',
+                'This project is dedicated for sales products sales man',
+                [
+                    new Technology('PHP', 'https://php.net'),
+                    new Technology('Javascript', 'https://javascript.net'),
+                    new Technology('jQuery', 'https://javascript.net'),
+                ]
+            ),
+            new ModelPortfolio(
+                'https://picsum.photos/id/1/500/300',
+                'Myrcosport B2B',
+                'https://www.project.one.com',
+                'This project is dedicated for sales products sales man',
+                [
+                    new Technology('PHP', 'https://php.net'),
+                    new Technology('Javascript', 'https://javascript.net'),
+                    new Technology('jQuery', 'https://javascript.net'),
+                ]
+            ),
+            new ModelPortfolio(
+                'https://picsum.photos/id/1/500/300',
+                'Keeway B2B',
+                'https://www.project.one.com',
+                'This project is dedicated for sales products sales man',
+                [
+                    new Technology('PHP', 'https://php.net'),
+                    new Technology('Javascript', 'https://javascript.net'),
+                    new Technology('jQuery', 'https://javascript.net'),
+                ]
+            ),
+            new ModelPortfolio(
+                'https://picsum.photos/id/1/500/300',
+                'Morillas Odoo',
+                'https://www.project.one.com',
                 'This project is dedicated for sales products sales man',
                 [
                     new Technology('PHP', 'https://php.net'),
@@ -22,9 +56,10 @@ export class Portfolio extends Component {
     };
 
     render() {
+        this.list();
         return (
             <>
-                <h2>Work</h2>
+                <h1>Portfolio</h1>
                 <div className="row g-2">
                     {this.portfolios.map((portfolio, key) => {
                         return <Project portfolio={portfolio}/>

@@ -1,0 +1,33 @@
+.card {
+  &.bss-card-project {
+    border: none;
+    background: transparent;
+    margin-bottom: 25px;
+
+    .card-body {
+      color: #fff;
+      border-radius: 5px;
+      background: linear-gradient(224deg, #0f0624 0%, #442370 100%);
+
+      .bss-tech-icon {
+        background: #162184;
+        background: -moz-linear-gradient(112deg, #6730a3 0%, #ffffff 100%);
+        background: -webkit-linear-gradient(112deg, #6730a3 0%, #ffffff 100%);
+        background: linear-gradient(112deg, #6730a3 0%, #ffffff 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#162184', endColorstr='#20687c', GradientType=0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+        margin: 0 5px;
+        border: 1px solid #6f69bf;
+        border-radius: 4px;
+        font-size: 0.5em;
+        padding: 2px 9px;
+      }
+
+      p.card-text {
+        font-size: 16px !important;
+      }
+    }
+  }
+}
