@@ -1,6 +1,7 @@
 import Technology from "./Technology";
 
 interface IPortfolio {
+    id: string;
     icon: string;
     title: string;
     url: string;
@@ -9,13 +10,15 @@ interface IPortfolio {
 }
 
 export class Portfolio implements IPortfolio {
+    id: string;
     icon: string;
     title: string;
     url: string;
     description: string;
     technologies: Technology[] = [];
 
-    constructor(icon: string, title: string, url: string, description?: string, technologies?: Technology[]) {
+    constructor(id: string, icon: string, title: string, url: string, description?: string, technologies?: Technology[]) {
+        this.id = id;
         this.icon = icon;
         this.title = title;
         this.url = url;

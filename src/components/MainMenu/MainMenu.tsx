@@ -26,6 +26,9 @@ const MainMenu = () => {
                     <li className="nav-item">
                         <NavLink className="nav-link" to="/contact-me">{t('menu.contact-me')}</NavLink>
                     </li>
+                    <li className="nav-item">
+                        <NavLink className="nav-link" to="/skills">{t('menu.skills')}</NavLink>
+                    </li>
                 </ul>
             </nav>
         </>
