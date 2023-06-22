@@ -4029,3 +4029,11 @@ body.is-preload #sidebar {
     background-attachment: scroll;
   }
 }
+
+.bss-separator-horizontal {
+  background: linear-gradient(45deg, white, #4b0e56);
+  height: 2px;
+  border: none;
+  transition: easi;
+  opacity: 1;
+}

@@ -2,7 +2,6 @@
   &.bss-card-project {
     border: none;
     background: transparent;
-    margin-bottom: 25px;
 
     .card-body {
       color: #fff;
@@ -78,5 +77,6 @@
 .bss-container-project {
   .bss-project-item {
     display: flex;
+    padding-bottom: 1.5em;
   }
 }

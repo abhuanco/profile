@@ -36,6 +36,6 @@ export default function ListPortfolio() {
     return <>
                 <h1>{t('menu.portfolio')}</h1>
                 <hr className="bss-separator-horizontal"/>
-                <div className="row g-2 bss-container-project">{listItems}</div>
+                <div className="row bss-container-project">{listItems}</div>
             </>
 }
