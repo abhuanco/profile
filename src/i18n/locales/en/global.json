@@ -1,4 +1,7 @@
 {
+  "titles": {
+    "senior": "Senior Web Developer"
+  },
   "menu": {
     "home": "Presentation",
     "about-me": "About Me",
@@ -17,6 +20,14 @@
       "subtitle": "",
       "sections": {
       }
+    },
+    "about-me": {
+      "about_me_01": "I am a Senior Web Developer with over 10 years of professional experience in web development. My extensive knowledge and expertise make me well-versed in various key technologies, including PHP, JavaScript, HTML, NodeJS, Docker, and more.",
+      "about_me_02": "Throughout my career, I have worked on numerous challenging projects, applying my expertise to develop robust and scalable web solutions. My primary focus has been on creating efficient and user-friendly applications, emphasizing usability and the end-user experience.",
+      "about_me_03": "In addition to my strong technical foundation, I possess excellent problem-solving skills and the ability to work collaboratively in a team. I have had the opportunity to closely collaborate with designers, engineers, and other professionals, allowing me to understand project needs and goals holistically.",
+      "about_me_04": "I stay updated with the latest trends and technological advancements in the field of web development. I am always seeking opportunities to enhance my skills and expand my knowledge, as I firmly believe in the importance of staying current in a rapidly evolving technological landscape.",
+      "about_me_05": "As a Senior Web Developer, I am prepared to take on new challenges and contribute my skills and experience to drive successful projects. I am enthusiastic about being part of dynamic and creative teams, and I am committed to delivering quality solutions that exceed client expectations.",
+      "about_me_06": "In summary, I am a highly experienced Senior Web Developer specialized in various key technologies of web development. My passion for technical excellence and user-centric approach have enabled me to succeed in my career thus far, and I am excited to embrace new challenges and continue growing professionally."
     }
   }
 }

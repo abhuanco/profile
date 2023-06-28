@@ -1,4 +1,7 @@
 {
+  "titles": {
+    "senior": "Senior Web Developer"
+  },
   "menu": {
     "home": "Presentación",
     "about-me": "Sobre Mi",
@@ -21,6 +24,14 @@
         "3": "Tambien tengo dominio de arquitectura hexagonal DDD para desarrollo de aplicaciones web",
         "4": "Asi como el manejo de multiples frameworks, como Laravel, Symfony, VueJS, Angular, React, jQuery"
       }
+    },
+    "about-me": {
+      "about_me_01": "Soy un desarrollador web con más de 10 años de experiencia profesional en el desarrollo de aplicaciones web. Mi amplio conocimiento y experiencia me han convertido en un experto en una variedad de tecnologías clave, incluyendo PHP, JavaScript, HTML, NodeJS y Docker, entre otras.",
+      "about_me_02": "Durante mi carrera, he trabajado en numerosos proyectos desafiantes, donde he aplicado mi experiencia en el desarrollo de soluciones web robustas y escalables. Mi enfoque principal ha sido crear aplicaciones eficientes y amigables para el usuario, centrándome en la usabilidad y la experiencia del usuario final.",
+      "about_me_03": "Además de mi sólida base técnica, también poseo excelentes habilidades de resolución de problemas y capacidad para trabajar en equipo. He tenido la oportunidad de colaborar estrechamente con diseñadores, ingenieros y otros profesionales, lo que me ha permitido comprender las necesidades y objetivos del proyecto de manera integral.",
+      "about_me_04": "Me mantengo al día con las últimas tendencias y avances tecnológicos en el campo del desarrollo web. Siempre estoy buscando oportunidades para mejorar mis habilidades y expandir mi conocimiento, ya que creo firmemente en la importancia de mantenerse actualizado en un entorno tecnológico en constante evolución.",
+      "about_me_05": "Como Senior Web Developer, estoy preparado para asumir nuevos desafíos y aportar mis habilidades y experiencia para impulsar proyectos exitosos. Estoy entusiasmado por formar parte de equipos dinámicos y creativos, y estoy comprometido con entregar soluciones de calidad que superen las expectativas del cliente.",
+      "about_me_06": "En resumen, soy un Senior Web Developer altamente experimentado y especializado en diversas tecnologías clave del desarrollo web. Mi pasión por la excelencia técnica y mi enfoque centrado en el usuario me han permitido tener éxito en mi carrera hasta ahora, y estoy emocionado por enfrentar nuevos desafíos y seguir creciendo profesionalmente."
     }
   }
 }
