@@ -32,6 +32,12 @@
       "about_me_04": "Me mantengo al día con las últimas tendencias y avances tecnológicos en el campo del desarrollo web. Siempre estoy buscando oportunidades para mejorar mis habilidades y expandir mi conocimiento, ya que creo firmemente en la importancia de mantenerse actualizado en un entorno tecnológico en constante evolución.",
       "about_me_05": "Como Senior Web Developer, estoy preparado para asumir nuevos desafíos y aportar mis habilidades y experiencia para impulsar proyectos exitosos. Estoy entusiasmado por formar parte de equipos dinámicos y creativos, y estoy comprometido con entregar soluciones de calidad que superen las expectativas del cliente.",
       "about_me_06": "En resumen, soy un Senior Web Developer altamente experimentado y especializado en diversas tecnologías clave del desarrollo web. Mi pasión por la excelencia técnica y mi enfoque centrado en el usuario me han permitido tener éxito en mi carrera hasta ahora, y estoy emocionado por enfrentar nuevos desafíos y seguir creciendo profesionalmente."
+    },
+    "skills": {
+      "php": {
+        "title": "PHP",
+        "description": ""
+      }
     }
   }
 }
