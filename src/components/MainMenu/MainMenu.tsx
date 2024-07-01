@@ -2,7 +2,7 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 import "./MainMenu.scss"
 import {useTranslation} from "react-i18next";
-import logo from '../../img/logo-oficial.png';
+import logo from '../../img/logo.svg';
 
 const MainMenu = () => {
     const [t,] = useTranslation("translations");

@@ -1,6 +1,6 @@
 {
   "titles": {
-    "senior": "Senior Web Developer"
+    "senior": "Senior Software Developer"
   },
   "menu": {
     "home": "Presentación",
@@ -11,7 +11,7 @@
   },
   "welcome": {
     "first": "René Huanco Choque",
-    "second": "Senior Web Developer",
+    "second": "Senior Software Developer",
     "three": "Soy experto desarrollador de aplicaciones web con mas de 10 años de experiencia."
   },
   "pages": {
